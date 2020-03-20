@@ -13,3 +13,10 @@ const Header = props => {
 };
 
 export default Header;
+
+
+else if (action.type === 'DECREMENT') {
+  return {
+      count: state.count -1
+      }// add an else if() to this reducer to handle the decrement action
+}
